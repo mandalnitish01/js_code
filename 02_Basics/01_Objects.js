@@ -8,11 +8,11 @@ const mySym = Symbol("key1")
 
 const JsUser = {
     name: "Hitesh",
-    "full name": "Hitesh Choudhary",
+    "full name": "Nitish mandal",
     [mySym]: "mykey1",
     age: 18,
-    location: "Jaipur",
-    email: "hitesh@google.com",
+    location: "Delhi",
+    email: "mandal@google.com",
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
@@ -22,9 +22,9 @@ const JsUser = {
 // console.log(JsUser["full name"])
 // console.log(JsUser[mySym])
 
-JsUser.email = "hitesh@chatgpt.com"
+JsUser.email = "nitish@chatgpt.com"
 // Object.freeze(JsUser)
-JsUser.email = "hitesh@microsoft.com"
+JsUser.email = "mandal@microsoft.com"
 // console.log(JsUser);
 
 JsUser.greeting = function(){

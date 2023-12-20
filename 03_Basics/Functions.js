@@ -1,9 +1,9 @@
 
 function sayMyName(){
-    console.log("H");
+    console.log("N");
     console.log("I");
     console.log("T");
-    console.log("E");
+    console.log("I");
     console.log("S");
     console.log("H");
 }
@@ -46,7 +46,7 @@ function calculateCartPrice(val1, val2, ...num1){
 // console.log(calculateCartPrice(200, 400, 500, 2000))
 
 const user = {
-    username: "hitesh",
+    username: "nitish",
     prices: 199
 }
 
