@@ -1,5 +1,5 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+// const tinderUser = new Object() //singlton object
+const tinderUser = {} //non singlton object
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
@@ -49,25 +49,41 @@ users[1].email
 // console.log(tinderUser);
 
 // console.log(Object.keys(tinderUser));
+ //output: [ 'id', 'name', 'isLoggedIn' ]
+
 // console.log(Object.values(tinderUser));
+// output:- [ '123abc', 'Sammy', false ]
+
 // console.log(Object.entries(tinderUser));
+//output:-[ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
+
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+//true
 
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+//false 
+
+
+
+//Day 3:-
 
 const course = {
     coursename: "js in hindi",
     price: "999",
-    courseInstructor: "nitish"
+    courseInstructor: "Nitish"
 }
 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+const {courseInstructor} = course
+console.log(courseInstructor);
 
-// console.log(courseInstructor);
+//here we change our variable name acccording to your need
+const {courseInstructor: instructor} = course
 console.log(instructor);
 
+//{} using this bracket you can make json. Json is the basically you can say API call 
 // {
 //     "name": "nitish",
 //     "coursename": "js in hindi",
