@@ -9,6 +9,8 @@ const dc_heros = ["superman", "flash", "batman"]
 // const allHeros = marvel_heros.concat(dc_heros)
 // console.log(allHeros);
 
+
+//this(...) operator is used for spred anyarray in js
 const all_new_heros = [...marvel_heros, ...dc_heros]
 
 // console.log(all_new_heros);
