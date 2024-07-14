@@ -1,7 +1,7 @@
 // Task 1
 
-let numberOne = 16;
-let numberTwo = 5;
+// let numberOne = 16;
+// let numberTwo = 5;
 
 // Add 2 num
 
@@ -67,4 +67,154 @@ let numberTwo = 5;
 
 
 
+// Activity 3
+
+// Task 1
+// >,<,>=,<=,==,===
+
+// >
+// const num1 = 13;
+// const num2 = 8;
+// console.log(num1 > num2)
+// return true 
+// if(num1 > num2)
+// {
+//     console.log(`${num1} is greater then ${num2}`);
+// }
+// else{
+//     console.log(`${num1} is less then ${num2}`);
+// }
+
+// <
+// const num1 = 13;
+// const num2 = 8;
+// console.log(num1 < num2);
+// // output:- false
+// if(num1 < num2)
+// {
+//     console.log(`${num1} is greater then ${num2}`);
+// }
+// else{
+//     console.log(`${num1} is less then ${num2}`);
+// }
+
+// >=
+
+// const num1 = 13;
+// const num2 =81;
+// console.log(num1 >= num2)
+// // output:-  false 
+// if(num1 > num2)
+// {
+//     console.log(`${num1} is greater then ${num2}`);
+// }
+// else if(num1 == num2)
+// {
+//     console.log(`${num1} is equal to ${num2}`);
+// }
+// else{
+//     console.log(`${num1} is less then ${num2}`);
+// }
+
+
+// <=
+// const num1 = 13;
+// const num2 =81;
+// console.log(num1 <= num2)
+// // output:-  true 
+// if(num1 < num2)
+// {
+//     console.log(`${num1} is less then ${num2}`);
+// }
+// else if(num1 == num2)
+// {
+//     console.log(`${num1} is equal to ${num2}`);
+// }
+// else{
+//     console.log(`${num1} is greater then ${num2}`);
+// }
+
+// // ==
+// const num1 = 13;
+// const num2 =81;
+// console.log(num1 == num2)
+// // output :- false 
+
+
+// ===
+// if both the data types and assign variable value is same then it return true
+// but when the datatypes are different but assign variable value are same,then they also return true.
+// but in same variable case both the datatypes and the value both are same then they return true if any one is not equal then it give the false value.
+
+
+// // case1:
+// let num1 = 81;
+// let num2 =81;
+// console.log(num1 === num2)
+// // output :- true 
+
+
+// case2: 
+// let num1 = 81;
+// let num2 =801;
+// console.log(num1 === num2)
+// // output :- false 
+
+
+
+// // case 3:
+// let num1 = 81;
+// const num2 =81;
+// console.log(num1 === num2)
+// // output :- true 
+
+// // case : 4
+// let num1 = 81;
+// const num2 =801;
+// console.log(num1 === num2)
+// // output :- false 
+
+
+// Activity 4
+
+
+
+
+// &&(AND) operator 
+// Example: The operator checks for the values from left to right and returns the value if the result is false and if the result is true it will return the last value.
+// console.log( 0 && 1 ); // 0 
+// console.log( 1 && 3 ); // 3 
+// console.log( null && true ); // null 
+// console.log(null && undefined) //null
+// console.log( 1 && 5 && 3 && 4); // 4
+
+// let num1 = true;
+// let num2 = false;
+// console.log(num1 && num2);
+// output :- false 
+
+// let num1 = true;
+// let num2 = true;
+// console.log(num1 && num2);
+// // output :- true 
+
+
+
+
+// || operator
+// console.log( 0 || 1 ); // 0 
+// console.log( 1 || 3 ); // 1 
+// console.log( null || true ); // true 
+// console.log(null || undefined) //undefined
+// console.log( 1 || 5 || 3 || 4); // 1
+
+
+// // tarnary operator 
+// let num1 = 6;
+// let num2 = 6;
+// let result = (num1 >= num2) ? true : false;
+// console.log(result);
+// // output :- true 
+
+ 
 
