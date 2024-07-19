@@ -36,6 +36,30 @@
 // // Using template literals
 // console.log(`Hi ${firstname} ${lastname}!`);
 
+
+// higher order fun
+
+// function shownum(num, newfun)
+// {
+//   console.log("first function called");
+//   newfun(num);
+// }
+// // one way to shown
+// // function showresult(result)
+// // {
+// //   console.log("resulting function called");
+// // console.log(result);
+// // }
+
+
+// // another way to show the fun
+// shownum(3, (val)=>{
+//   console.log(val);
+// });
+
+
+ 
+
 // *************************************************************************************************
 // Assignment 1
 
@@ -112,25 +136,77 @@
 
 
 
-// task 6 (doubt)
+// task 6 (doubtt)
 // special charector finding
 
-// const specialCharectorFind = (str) =>{
+// const specialCharectorFind = (str) => {
 //   console.log(`Given String is ${str}`);
-//  for(let i = 0; i<= str.length;i++)
-//  {
-//   let ch = str.charCodeAt(i);
-//   console.log(ch);
-//   if( !(ch >=65 && ch<=90) &&
-//       !(ch >=97 && ch<=122) && 
-//       !(ch >=48 && ch<=57)
-//     )
-//   {
-//     return console.log("it  Contain a Special charector!");
-//     console.log(true);
+//   for(let i = 0; i < str.length; i++) {
+//     let ch = str.charCodeAt(i);
+//     if(!(ch >= 65 && ch <= 90) &&
+//        !(ch >= 97 && ch <= 122) && 
+//        !(ch >= 48 && ch <= 57)) {
+//         console.log(true);
+//       console.log("It contains a special character!");
+//       console.log(`The present charector code is ${ch}`);
+      
+//       return true;
+//     }
+//     else
+//     {
+//      console.log(false);
+//   console.log("It does not contain a special character!");
+//   return false;
+//     }
 //   }
-//  } 
-// //  console.log("it does not contain a special charector!")                                      
-// }
-// let str = "Nitish$Mandal"
+// };
+
+// let str = "NitishMandal";
 // specialCharectorFind(str);
+
+
+// Task 6
+
+// function defaultparafun(name,age = 19){
+//   console.log(name);
+//   console.log(age);
+//   // console.log("This is default parameter function");
+// }
+// defaultparafun("nitish");
+
+
+// higher order function
+
+// A higher order function is a function that takes one or more functions as arguments, or returns a function as its result.
+
+
+
+// function higherOrderFunction(num,cb)
+// {
+//   console.log("higher order function called");
+//   cb(num);
+// }
+
+// higherOrderFunction(2, function(result){
+//   console.log(result);
+// })
+
+
+
+// task 7
+
+// function TwoNumbers(num1,num2,newfunction)
+// {
+//   console.log(`first function called`);
+//   console.log(`The first value is ${num1}`);
+//   const result = num1 + num2;
+//   newfunction(num2,result);
+// }
+// function showresult(num2,result){
+//   console.log(`After higher order function called, The new function is execute`)
+//   console.log(`the second number is ${num2}`);
+//   console.log(`The sum of both  value is ${result}`);
+// }
+// TwoNumbers(3,5,showresult);
+
+
